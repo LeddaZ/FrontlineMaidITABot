@@ -1,4 +1,4 @@
-# FrontlineMaidITABot ![Versione](https://img.shields.io/github/v/release/LeddaZ/FrontlineMaidITABot?color=%23005000&label=Ultima versione)
+# FrontlineMaidITABot ![dimCodice](https://img.shields.io/github/languages/code-size/LeddaZ/FrontlineMaidITABot?label=Dimensione%20del%20codice&style=flat-square) ![Versione](https://img.shields.io/github/v/release/LeddaZ/FrontlineMaidITABot?include_prereleases&label=Ultima%20versione&style=flat-square)
 Bot molto bello per Girls Frontline
 
 # Cronologia delle versioni
