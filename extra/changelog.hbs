@@ -1,0 +1,15 @@
+{{#each releases}}
+  {{#if @first}}
+    {{#each merges}}
+      - {{{message}}}{{#if href}} [`#{{id}}`]({{href}}){{/if}}
+    {{/each}}
+    {{#each fixes}}
+      - {{{commit.subject}}}{{#each fixes}}{{#if href}} [`#{{id}}`]({{href}}){{/if}}{{/each}}
+    {{/each}}
+    {{#each commits}}
+      - {{#if breaking}}**Breaking change:** {{/if}}{{{subject}}}{{#if href}} [`{{shorthash}}`]({{href}}){{/if}}
+    {{/each}}
+  {{/if}}
+{{/each}}
+
+Changelog generato automaticamente da [`auto-changelog`](https://github.com/CookPete/auto-changelog). Per maggiori dettagli sulle novità leggere la [cronologia delle versioni](https://github.com/LeddaZ/FrontlineMaidITABot/blob/main/extra/changelog.md).
