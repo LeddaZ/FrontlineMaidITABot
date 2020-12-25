@@ -1,6 +1,6 @@
 {
   "name": "frontlinemaiditabot",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Bot bello per Girls Frontline",
   "main": "index.js",
   "engines": {
@@ -13,16 +13,24 @@
   },
   "author": "@LeddaZ su Telegram",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeddaZ/FrontlineMaidITABot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeddaZ/FrontlineMaidITABot/issues"
+  },
+  "homepage": "https://github.com/LeddaZ/FrontlineMaidITABot#readme",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "dotenv": "^4.0.0",
-    "express": "^4.13.4",
-    "node-telegram-bot-api": "^0.30.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.51.0",
     "fs-extra": "^9.0.1"
   },
   "devDependencies": {
-    "auto-changelog": "^2.2.0",
-    "release-it": "^14.0.1",
+    "auto-changelog": "^2.2.1",
+    "release-it": "^14.2.2",
     "lodash": "^4.17.20",
     "minimist": "^1.2.5",
     "bl": "^4.0.3"
