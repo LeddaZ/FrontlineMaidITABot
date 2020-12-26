@@ -73,3 +73,13 @@ bot.onText(/\/botinfo/, (msg) => {
   });
 
 });
+
+
+// Codice di /comandi
+bot.onText(/\/comandi/, (msg) => {
+
+  bot.sendMessage(msg.chat.id, "<b>Comandi del bot</b>\n/botinfo - Visualizza alcune informazioni sul bot\n/info - Visualizza informazioni su una T-doll (non ancora implementato)\n/isgood - Visualizza i vantaggi e svantaggi di una T-doll (non ancora implementato, il nome è temporaneo)\n/tempo o /t - Visualizza quali T-doll si possono ottenere in un determinato lasso di tempo (non ancora implementato)", {
+    parse_mode: "HTML"
+  });
+
+});
