@@ -39,26 +39,37 @@ var mtime = stats.mtime;
 
 // Formato della data (g/m/a)
 var d = {
-    day: 'numeric'
+  day: 'numeric'
 };
 var m = {
-    month: 'numeric'
+  month: 'numeric'
 };
 var y = {
-    year: 'numeric'
+  year: 'numeric'
 };
 
 // Creazione della stringa con la data
 var data = mtime.toLocaleDateString('it-IT', d) + "/" + mtime.toLocaleDateString('it-IT', m) + "/" + mtime.toLocaleDateString('it-IT', y);
 
 // Testo di /botinfo e /start
-var start = "<b>FrontlineMaidITABot</b>\nUn bot bello per Girls Frontline\nVersione <code>" + ver + "</code> del " + data + "\nDigita /comandi per la lista di comandi\n<a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/\">Codice sorgente</a> - <a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/blob/main/extra/changelog.md\">Cronologia delle versioni</a>\nCreato da @LeddaZ"
+var start = "<b>FrontlineMaidITABot</b>\n<i>Un bot bello per Girls Frontline</i>\nVersione <code>" + ver + "</code> del " + data + "\nDigita /comandi per la lista di comandi\n<a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/\">Codice sorgente</a> - <a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/blob/main/extra/changelog.md\">Cronologia delle versioni</a>\nCreato da @LeddaZ"
 
 
 // Codice del bot
-bot.on('message', (msg) => {
-  const name = msg.from.first_name;
-  bot.sendMessage(msg.chat.id, 'Hello, ' + name + '!').then(() => {
-    // reply sent!
+
+// Codice di /start e /botinfo
+bot.onText(/\/start/, (msg) => {
+
+  bot.sendMessage(msg.chat.id, start, {
+    parse_mode: "HTML"
   });
+
+});
+
+bot.onText(/\/botinfo/, (msg) => {
+
+  bot.sendMessage(msg.chat.id, start, {
+    parse_mode: "HTML"
+  });
+
 });
