@@ -1,3 +1,5 @@
 # Cronologia delle versioni
 
-Niente per il momento
+## 0.0.1
+- Versione iniziale
+- Aggiunti i comandi `/start` e `/botinfo`
