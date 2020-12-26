@@ -12,7 +12,6 @@ Per scaricare una versione precedente visitare la sezione [Releases](https://git
 # Avviare il bot
 Per avviare il codice su un proprio bot seguire queste istruzioni:
 - Creare un bot con [BotFather](https://t.me/BotFather) e annotarsi la token del bot
-- Nelle impostazioni del bot attivare la tastiera inline; inoltre se il bot viene aggiunto a un gruppo dovrà essere amministratore per assicurare il corretto funzionamento
 - Installare [Node.js](https://nodejs.org/it/). È consigliato installare l'ultima versione LTS, dato che il bot viene testato su Node 12 LTS
 - Installare [Git](https://git-scm.com/)
 - Aprire una nuova finestra del terminale/prompt dei comandi
