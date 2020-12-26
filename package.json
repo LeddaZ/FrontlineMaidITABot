@@ -1,6 +1,6 @@
 {
   "name": "frontlinemaiditabot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bot bello per Girls Frontline",
   "main": "index.js",
   "engines": {
