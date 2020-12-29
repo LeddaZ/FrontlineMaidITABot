@@ -1,5 +1,10 @@
 # Cronologia delle versioni
 
+## 0.1.0
+- Aggiunti gli esempi su `/comandi` e migliorata la formattazione
+- Aggiunti i comandi `/info` e `/tempo` (mancano ancora i dati)
+- Altri miglioramenti al codice
+
 ## 0.0.2
 - Aggiunto il comando `/comandi`
 
