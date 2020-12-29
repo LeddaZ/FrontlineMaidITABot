@@ -52,7 +52,7 @@ var y = {
 var data = mtime.toLocaleDateString('it-IT', d) + "/" + mtime.toLocaleDateString('it-IT', m) + "/" + mtime.toLocaleDateString('it-IT', y);
 
 // Testo di /botinfo e /start
-var start = "<b>FrontlineMaidITABot</b>\n<i>Un bot bello per Girls Frontline</i>\nVersione <code>" + ver + "</code> del " + data + "\nDigita /comandi per la lista di comandi\n<a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/\">Codice sorgente</a> - <a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/blob/main/extra/changelog.md\">Cronologia delle versioni</a>\nCreato da @LeddaZ"
+var start = "<b>FrontlineMaidITABot</b>\n<i>Un bot bello per Girls Frontline</i>\nVersione <code>" + ver + "</code> del " + data + "\nDigita /comandi per la lista di comandi\n<a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/\">Codice sorgente</a> - <a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/blob/main/extra/changelog.md\">Cronologia delle versioni</a>"
 
 
 // Codice del bot
@@ -75,10 +75,36 @@ bot.onText(/\/botinfo/, (msg) => {
 });
 
 
+// Codice di /info
+bot.onText(/\/info/, (msg) => {
+
+  // Nomi delle T-doll
+  const nome1 = "uno";
+  const nome2 = "due";
+  const nome3 = "tre";
+
+  // Variabile con il testo del messaggio
+  var testo = msg.text.toString().toLowerCase();
+
+  // Risposte con le informazioni
+  if (testo == "/info " + nome1)
+    bot.sendMessage(msg.chat.id, "a");
+
+  else if (testo == "/info " + nome2)
+    bot.sendMessage(msg.chat.id, "b");
+
+  else if (testo == "/info " + nome3)
+    bot.sendMessage(msg.chat.id, "c");
+
+  else
+    bot.sendMessage(msg.chat.id, "Non hai specificato il nome di una T-doll.");
+
+});
+
 // Codice di /comandi
 bot.onText(/\/comandi/, (msg) => {
 
-  bot.sendMessage(msg.chat.id, "<b>Comandi del bot</b>\n/botinfo - Visualizza alcune informazioni sul bot\n/info - Visualizza informazioni su una T-doll (non ancora implementato)\n/isgood - Visualizza i vantaggi e svantaggi di una T-doll (non ancora implementato, il nome è temporaneo)\n/tempo o /t - Visualizza quali T-doll si possono ottenere in un determinato lasso di tempo (non ancora implementato)", {
+  bot.sendMessage(msg.chat.id, "<b>Comandi del bot</b>\n/botinfo - Visualizza alcune informazioni sul bot\n/info - Visualizza informazioni su una T-doll\n/isgood - Visualizza i vantaggi e svantaggi di una T-doll (non ancora implementato, il nome è temporaneo)\n/tempo o /t - Visualizza quali T-doll si possono ottenere in un determinato lasso di tempo (non ancora implementato)", {
     parse_mode: "HTML"
   });
 
