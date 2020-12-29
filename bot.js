@@ -54,6 +54,12 @@ var data = mtime.toLocaleDateString('it-IT', d) + "/" + mtime.toLocaleDateString
 // Testo di /botinfo e /start
 var start = "<b>FrontlineMaidITABot</b>\n<i>Un bot bello per Girls Frontline</i>\nVersione <code>" + ver + "</code> del " + data + "\nDigita /comandi per la lista di comandi\n<a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/\">Codice sorgente</a> - <a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/blob/main/extra/changelog.md\">Cronologia delle versioni</a>"
 
+// Nomi delle T-doll
+const nome1 = "uno";
+const nome2 = "due";
+const nome3 = "tre";
+
+
 
 // Codice del bot
 
@@ -87,11 +93,6 @@ bot.onText(/\/comandi/, (msg) => {
 
 // Codice di /info
 bot.onText(/\/info/, (msg) => {
-
-  // Nomi delle T-doll
-  const nome1 = "uno";
-  const nome2 = "due";
-  const nome3 = "tre";
 
   // Variabile con il testo del messaggio
   var testo = msg.text.toString().toLowerCase();
