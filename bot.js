@@ -22,8 +22,13 @@ else {
   bot = new Bot(token, { polling: true });
 }
 
-// Dichiarazione del bot
+// Esportazione del bot
 module.exports = bot;
+
+// Variabili da dolls.json
+const dolls = require('./dolls.json');
+const nomi = dolls.nomi;
+const tempi = dolls.tempi;
 
 // Lettura della versione del bot da package.json
 const pjson = require('./package.json');
@@ -53,13 +58,6 @@ var data = mtime.toLocaleDateString('it-IT', d) + "/" + mtime.toLocaleDateString
 
 // Testo di /botinfo e /start
 var start = "<b>FrontlineMaidITABot</b>\n<i>Un bot bello per Girls Frontline</i>\nVersione <code>" + ver + "</code> del " + data + "\nDigita /comandi per la lista di comandi\n<a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/\">Codice sorgente</a> - <a href=\"https://github.com/LeddaZ/FrontlineMaidITABot/blob/main/extra/changelog.md\">Cronologia delle versioni</a>"
-
-// Nomi delle T-doll
-const nomi = ["uno", "due", "tre"];
-
-// Tempi delle T-doll
-const tempi = ["100", "200", "300"];
-
 
 
 // Codice del bot
@@ -92,6 +90,14 @@ bot.onText(/\/comandi/, (msg) => {
 });
 
 
+// Codice di /nomi
+bot.onText(/\/nomi/, (msg) => {
+
+  bot.sendMessage(msg.chat.id, "<b>Nomi delle T-doll per</b> <code>/info</code>\n\nNTW-20 mod3\nMP-446 mod3\nMosin-Nagant mod3", { parse_mode: "HTML" });
+
+});
+
+
 // Codice di /info
 bot.onText(/\/info/, (msg) => {
 
@@ -112,7 +118,6 @@ bot.onText(/\/info/, (msg) => {
     bot.sendMessage(msg.chat.id, "Non hai specificato il nome di una T-doll.");
 
 });
-
 
 // Codice di /tempo
 bot.onText(/\/tempo/, (msg) => {
