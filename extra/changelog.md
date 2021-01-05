@@ -4,6 +4,7 @@
 - Aggiunto il comando `/nomi`
 - Aggiunti un po' di tempi in `/tempi`
 - Tutte le variabili e i dati vengono ora memorizzati in un file separato
+- Il bot ora utilizza Node.js 14 LTS
 - Altri miglioramenti al codice
 
 ## 0.1.0
