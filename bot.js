@@ -83,7 +83,7 @@ bot.onText(/\/botinfo/, (msg) => {
 // Codice di /comandi
 bot.onText(/\/comandi/, (msg) => {
 
-  bot.sendMessage(msg.chat.id, "<b>Comandi del bot</b>\n\n\n/botinfo\nVisualizza alcune informazioni sul bot\n\n/info\nVisualizza informazioni su una T-doll (c'è ma mancano ancora i dati)\nUtilizzo: /info <code>nome</code>\n\n/isgood\nVisualizza i vantaggi e svantaggi di una T-doll (non ancora implementato, il nome è temporaneo)\n\n/nomi\nVisualizza un elenco con i nomi di tutte le T-doll\n\n/tempo\nVisualizza quali T-doll si possono ottenere in un determinato lasso di tempo\nUtilizzo: /tempo <code>h:mm</code>", {
+  bot.sendMessage(msg.chat.id, "<b>Comandi del bot</b>\n\n\n/botinfo\nVisualizza alcune informazioni sul bot\n\n/info\nVisualizza informazioni su una T-doll (c'è ma mancano ancora i dati)\nUtilizzo: /info <code>nome</code>\n\n/isgood\nVisualizza i vantaggi e svantaggi di una T-doll (non ancora implementato, il nome è temporaneo)\n\n/nomi\nVisualizza un elenco con i nomi di tutte le T-doll\n\n/tempo\nVisualizza quali T-doll si possono ottenere in un determinato lasso di tempo (ancora incompleto)\nUtilizzo: /tempo <code>h:mm</code>", {
     parse_mode: "HTML"
   });
 
