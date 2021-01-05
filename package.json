@@ -1,6 +1,6 @@
 {
   "name": "frontlinemaiditabot",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Bot bello per Girls Frontline",
   "main": "index.js",
   "engines": {
@@ -43,7 +43,7 @@
     "github": {
       "release": true,
       "releaseName": "Versione ${version}",
-      "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/LeddaZ/FrontlineMaidITABot/main/extra/changelog.hbs"
+      "releaseNotes": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/LeddaZ/FrontlineMaidITABot/main/extra/changelog.hbs"
     },
     "npm": {
       "publish": false
