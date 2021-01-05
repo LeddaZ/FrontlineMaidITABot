@@ -1,5 +1,9 @@
 # Cronologia delle versioni
 
+## 0.2.2
+- Aggiunti tutti i nomi delle T-doll nelle variabili
+- Migliorato `/nomi`
+
 ## 0.2.1
 - Migliorato `/comandi`
 
