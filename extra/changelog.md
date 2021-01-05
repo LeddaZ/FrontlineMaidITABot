@@ -1,5 +1,8 @@
 # Cronologia delle versioni
 
+## 0.2.1
+- Migliorato `/comandi`
+
 ## 0.2.0
 - Aggiunto il comando `/nomi`
 - Aggiunti un po' di tempi in `/tempi`
