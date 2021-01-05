@@ -1,5 +1,8 @@
 # Cronologia delle versioni
 
+## 0.3.0
+- `/tempo` è stato completato
+
 ## 0.2.2
 - Aggiunti tutti i nomi delle T-doll nelle variabili
 - Migliorato `/nomi`
@@ -9,7 +12,7 @@
 
 ## 0.2.0
 - Aggiunto il comando `/nomi`
-- Aggiunti un po' di tempi in `/tempi`
+- Aggiunti un po' di tempi in `/tempo`
 - Tutte le variabili e i dati vengono ora memorizzati in un file separato
 - Il bot ora utilizza Node.js 14 LTS
 - Altri miglioramenti al codice
