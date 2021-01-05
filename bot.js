@@ -115,7 +115,7 @@ bot.onText(/\/info/, (msg) => {
     bot.sendMessage(msg.chat.id, "c");
 
   else
-    bot.sendMessage(msg.chat.id, "Non hai specificato il nome di una T-doll.");
+    bot.sendMessage(msg.chat.id, "Nome non valido.");
 
 });
 
@@ -184,6 +184,6 @@ bot.onText(/\/tempo/, (msg) => {
     bot.sendMessage(msg.chat.id, "<b>[04:12]</b>\n★★★★★ [AR] AK-12", { parse_mode: "HTML" });
 
   else
-    bot.sendMessage(msg.chat.id, "Tempo non valido.");
+    bot.sendMessage(msg.chat.id, "Nessuna informazione per il tempo inserito.");
 
 });
