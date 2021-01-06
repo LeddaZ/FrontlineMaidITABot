@@ -1,5 +1,8 @@
 # Cronologia delle versioni
 
+## 0.3.1
+- `/tempo` è stato corretto, alcuni valori visualizzavano dati errati (es. `/tempo 800` dava i risultati di `/tempo 810`)
+
 ## 0.3.0
 - `/tempo` è stato completato
 
