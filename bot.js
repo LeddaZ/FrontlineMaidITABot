@@ -132,322 +132,446 @@ bot.onText(/\/tempo/, (msg) => {
 
   // Risposte con le informazioni
   if (testo == "/tempo " + tempi[0])
-    bot.sendMessage(msg.chat.id, "<b>[02:40]</b>\n★★☆☆☆ [AR] Galil\n★★☆☆☆ [AR] SIG-510", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:05]</b>\n★★☆☆☆ [Equipment] BM 3-12X40", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[1])
-    bot.sendMessage(msg.chat.id, "<b>[02:45]</b>\n★★☆☆☆ [AR] FF F2000\n★★☆☆☆ [AR] Type 63", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:07]</b>\n★★☆☆☆ [Equipment] AC1 Suppressor", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[2])
-    bot.sendMessage(msg.chat.id, "<b>[02:50]</b>\n★★☆☆☆ [AR] Gr G3\n★★☆☆☆ [AR] L85 A1", { parse_mode: "HTML" });
+	bot.sendMessage(msg.chat.id, "<b>[00:08]</b>\n★★☆☆☆ [Equipment] EOT 506", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[3])
-    bot.sendMessage(msg.chat.id, "<b>[03:00]</b>\n★★★☆☆ [AR] StG44\n★☆☆☆☆ [Fairy] Armor Fairy", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:09]</b>\n★★☆☆☆ [Equipment] PEQ-2", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[4])
-    bot.sendMessage(msg.chat.id, "<b>[03:10]</b>\n★★★☆☆ [AR] OTs-12\n★★☆☆☆ [RF] FF FN49\n★★☆☆☆ [RF] G43\n★☆☆☆☆ [Fairy] Taunt Fairy", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:10]</b>\n★★☆☆☆ [Equipment] AMP COMPM2", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[5])
-    bot.sendMessage(msg.chat.id, "<b>[03:20]</b>\n★★★☆☆ [AR] AK-47\n★★★☆☆ [AR] FN FNC\n★★☆☆☆ [RF] VM59", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:12]</b>\n★★☆☆☆ [Equipment] IOP X1 Exoskeleton\n★★☆☆☆ [Equipment] IOP T1 Exoskeleton", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[6])
-    bot.sendMessage(msg.chat.id, "<b>[03:25]</b>\n★★★★☆ [AR] Type 56-1\n★★★★☆ [AR] XM8\n★★★★☆ [AR] SAR-21", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:13]</b>\n★★☆☆☆ [Equipment] ILM Hollow Point Ammo (2-Star)", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[7])
-    bot.sendMessage(msg.chat.id, "<b>[03:30]</b>\n★★★★☆ [AR] AS Val\n★★★★☆ [AR] Fr FAMAS\n★★★★☆ [AR] TAR-21\n★★☆☆☆ [RF] SKS\n★★☆☆☆ [RF] SVT-38\n★☆☆☆☆ [Fairy] Sniper Fairy", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:14]</b>\n★★☆☆☆ [Equipment] BK Slug\n★★☆☆☆ [Equipment] ＃1 Buckshot", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[8])
-    bot.sendMessage(msg.chat.id, "<b>[03:35]</b>\n★★★★☆ [AR] 9A-91\n★★★★☆ [AR] EM-2\n★★★★☆ [AR] CR-21\n★☆☆☆☆ [Fairy] Artillery Fairy", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:15]</b>\n★★☆☆☆ [Equipment] M61 Armor-Piercing Ammo", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[9])
-    bot.sendMessage(msg.chat.id, "<b>[03:40]</b>\n★★★★☆ [AR] Gr G36\n★★★★☆ [AR] Ribeyrolles\n★★★★☆ [RF] M14\n★★★★☆ [RF] SV-98\n★☆☆☆☆ [Fairy] Airstrike Fairy", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:16]</b>\n★★☆☆☆ [Equipment] Ragged Cape", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[10])
-    bot.sendMessage(msg.chat.id, "<b>[03:45]</b>\n★★★★★ [AR] FN FAL", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:18]</b>\n★★☆☆☆ [Equipment] FMJ High-Velocity Ammo", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[11])
-    bot.sendMessage(msg.chat.id, "<b>[03:48]</b>\n★★★★★ [AR] T91", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[12])
-    bot.sendMessage(msg.chat.id, "<b>[03:50]</b>\n★★★★★ [AR] Type95\n★★★★★ [AR] Type97\n★★★☆☆ [RF] OTs-44\n★★★☆☆ [RF] Type 88 Hanyang", { parse_mode: "HTML" });
- 
-  else if (testo == "/tempo " + tempi[13])
-    bot.sendMessage(msg.chat.id, "<b>[03:53]</b>\n★★★★★ [AR] MDR", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[14])
-    bot.sendMessage(msg.chat.id, "<b>[03:55]</b>\n★★★★★ [AR] HK416\n★★★★★ [AR] ADS", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[15])
-    bot.sendMessage(msg.chat.id, "<b>[03:58]</b>\n★★★★★ [AR] Am RFB", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[16])
-    bot.sendMessage(msg.chat.id, "<b>[04:04]</b>\n★★★★★ [AR] Gr G11\n★★★★☆ [RF] Type 4", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[17])
-    bot.sendMessage(msg.chat.id, "<b>[04:05]</b>\n★★★★★ [AR] Gr G41\n★★★★★ [AR] Zas M21\n★☆☆☆☆ [Fairy] Parachute Fairy", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[18])
-    bot.sendMessage(msg.chat.id, "<b>[04:12]</b>\n★★★★★ [AR] AK-12", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[19])
-    bot.sendMessage(msg.chat.id, "<b>[04:09]</b>\n★★★★★ [AR] AN-94", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[20])
-    bot.sendMessage(msg.chat.id, "<b>[04:06]</b>\n★★★★★ [AR] 64 Shiki", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[21])
-    bot.sendMessage(msg.chat.id, "<b>[04:11]</b>\n★★★★★ [AR] K11", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[22])
-    bot.sendMessage(msg.chat.id, "<b>[03:52]</b>\n★★★★★ [AR] K2", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[23])
-    bot.sendMessage(msg.chat.id, "<b>[03:56]</b>\n★★★★★ [AR] SIG-556", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[24])
     bot.sendMessage(msg.chat.id, "<b>[00:20]</b>\n★★☆☆☆ [HG] M1895\n★★☆☆☆ [HG] M1911\n★★☆☆☆ [HG] P38\n★★★☆☆ [Equipment] LRA 2-12x50", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[25])
+  else if (testo == "/tempo " + tempi[12])
     bot.sendMessage(msg.chat.id, "<b>[00:22]</b>\n★★☆☆☆ [HG] PPK\n★★★☆☆ [Equipment]  AC2 Suppressor", { parse_mode: "HTML" });
+ 
+  else if (testo == "/tempo " + tempi[13])
+    bot.sendMessage(msg.chat.id, "<b>[00:23]</b>\n★★☆☆☆ [Equipment] EOT 512", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[26])
+  else if (testo == "/tempo " + tempi[14])
+    bot.sendMessage(msg.chat.id, "<b>[00:24]</b>\n★★★☆☆ [Equipment] PEQ-5", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[15])
     bot.sendMessage(msg.chat.id, "<b>[00:25]</b>\n★★☆☆☆ [HG] FN FNP9\n★★☆☆☆ [HG] MP-446\n★★★☆☆ [Equipment]  AMP COMPM4", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[27])
-    bot.sendMessage(msg.chat.id, "<b>[00:28]</b>\n★★☆☆☆ [HG] Bren Ten\n★★☆☆☆ [HG] Gr USPCompact\n★★★☆☆ [Equipment]  ILM Hollow Point Ammo (3-Star)", { parse_mode: "HTML" });
-  
-  else if (testo == "/tempo " + tempi[28])
+  else if (testo == "/tempo " + tempi[16])
+    bot.sendMessage(msg.chat.id, "<b>[00:26]</b>\n★★★☆☆ [Equipment] Type 1 Armor Plate", { parse_mode: "HTML" }); 
+
+  else if (testo == "/tempo " + tempi[17])
+    bot.sendMessage(msg.chat.id, "<b>[00:27]</b>\n★★★☆☆ [Equipment] IOP X2 Exoskeleton\n★★☆☆☆ [Equipment] IOP T2 Exoskeleton", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[18])
+    bot.sendMessage(msg.chat.id, "<b>[00:28]</b>\n★★☆☆☆ [HG] Bren Ten\n★★☆☆☆ [HG] Gr USPCompact\n★★★☆☆ [Equipment]  ILM Hollow Point Ammo (3-Star)", { parse_mode: "HTML" }); 
+
+  else if (testo == "/tempo " + tempi[19])
+    bot.sendMessage(msg.chat.id, "<b>[00:29]</b>\n★★★☆☆ [Equipment] FST Slug\n★★☆☆☆ [Equipment] ＃0 Buckshot", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[20])
     bot.sendMessage(msg.chat.id, "<b>[00:30]</b>\n★★★☆☆ [HG] P08\n★★★☆☆ [HG] C96\n★★★☆☆ [Equipment]  M993 Armor-Piercing Ammo", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[29])
+  else if (testo == "/tempo " + tempi[21])
+    bot.sendMessage(msg.chat.id, "<b>[00:31]</b>\n★★★☆☆ [Equipment] Camouflage Cape", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[22])
+    bot.sendMessage(msg.chat.id, "<b>[00:33]</b>\n★★★☆☆ [Equipment] JSP High-Velocity Ammo", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[23])
     bot.sendMessage(msg.chat.id, "<b>[00:35]</b>\n★★★☆☆ [HG] Type92\n★★★☆☆ [HG] P99\n★★★★☆ [Equipment]  PSO-1", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[30])
+  else if (testo == "/tempo " + tempi[24])
+    bot.sendMessage(msg.chat.id, "<b>[00:37]</b>\n★★★★☆ [Equipment] AC3 Suppressor", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[25])
+    bot.sendMessage(msg.chat.id, "<b>[00:38]</b>\n★★★★☆ [Equipment] EOT 516", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[26])
     bot.sendMessage(msg.chat.id, "<b>[00:40]</b>\n★★★☆☆ [HG] Astra\n★★★☆☆ [HG] M9\n★★★☆☆ [HG] Makarov\n★★★★☆ [Equipment] COG M150", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[27])
+    bot.sendMessage(msg.chat.id, "<b>[00:41]</b>\n★★★★☆ [Equipment] Type 2 Armor Plate", { parse_mode: "HTML" });
+  
+  else if (testo == "/tempo " + tempi[28])
+    bot.sendMessage(msg.chat.id, "<b>[00:42]</b>\n★★★★☆ [Equipment] IOP T3 Exoskeleton\n★★★★☆ [Equipment] IOP X3 Exoskeleton", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[29])
+    bot.sendMessage(msg.chat.id, "<b>[00:43]</b>\n★★★★☆ [Equipment] ILM Hollow Point Ammo (4-Star)", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[30])
+    bot.sendMessage(msg.chat.id, "<b>[00:44]</b>\n★★★★☆ [Equipment] WAD Slug\n★★★★☆ [Equipment] ＃00 Buckshot", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[31])
     bot.sendMessage(msg.chat.id, "<b>[00:45]</b>\n★★★☆☆ [HG] Tokarev\n★★★★☆ [Equipment] COG M150\n★★★★☆ [Equipment] Mk169 Armor-Piercing Ammo\n★★★★★ [Equipment] VFL 6-24x56", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[32])
-    bot.sendMessage(msg.chat.id, "<b>[00:50]</b>\n★★★★☆ [HG] Mk23\n★★★★☆ [HG] SAA\n★★★★☆ [HG] P30\n★★★★★ [Equipment] ITI Mars", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:46]</b>\n★★★★☆ [Equipment] Urban Camouflage Cape", { parse_mode: "HTML" }); 
 
   else if (testo == "/tempo " + tempi[33])
-    bot.sendMessage(msg.chat.id, "<b>[00:52]</b>\n★★★★☆ [HG] Spitfire\n★★★★★ [Equipment]  IOP X4 Exoskeleton\n★★★★★ [Equipment] IOP T4 Exoskeleton", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:47]</b>\n★★★★★ [Equipment] AC4 Suppressor\n★★★★☆ [Equipment] IOP High-Capacity Ammo Box", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[34])
-    bot.sendMessage(msg.chat.id, "<b>[00:53]</b>\n★★★★☆ [HG] K5\n★★★☆☆ [HG] Serdyukov\n★★★★★[Equipment]  ILM Hollow Point Ammo", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:48]</b>\n★★★★★ [Equipment] EOT 518\n★★★★☆ [Equipment] JHP High-Velocity Ammo", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[35])
-    bot.sendMessage(msg.chat.id, "<b>[00:55]</b>\n★★★★☆ [HG] P7\n★★★★☆ [HG] Stechkin\n★★★★★[Equipment]  Mk211 High-Explosive Armor-Piercing ", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:49]</b>\n★★★★☆ [HG] Jericho\n★★★★★[Equipment] PEQ-16A ", { parse_mode: "HTML" }); 
 
   else if (testo == "/tempo " + tempi[36])
-    bot.sendMessage(msg.chat.id, "<b>[00:49]</b>\n★★★★☆ [HG] Jericho\n★★★★★[Equipment] PEQ-16A ", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:50]</b>\n★★★★☆ [HG] Mk23\n★★★★☆ [HG] SAA\n★★★★☆ [HG] P30\n★★★★★ [Equipment] ITI Mars", { parse_mode: "HTML" }); 
 
   else if (testo == "/tempo " + tempi[37])
-    bot.sendMessage(msg.chat.id, "<b>[01:00]</b>\n★★★★★ [HG] Welrod MkII", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:51]</b>\n★★★★★ [Equipment] Type 3 Armor Plate", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[38])
-    bot.sendMessage(msg.chat.id, "<b>[01:02]</b>\n★★★★★ [HG] Contender", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:52]</b>\n★★★★☆ [HG] Spitfire\n★★★★★ [Equipment]  IOP X4 Exoskeleton\n★★★★★ [Equipment] IOP T4 Exoskeleton", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[39])
-    bot.sendMessage(msg.chat.id, "<b>[01:05]</b>\n★★★★★ [HG] M950A\n★★★★★ [HG] NZ75", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:53]</b>\n★★★★☆ [HG] K5\n★★★★★[Equipment]  ILM Hollow Point Ammo", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[40])
-    bot.sendMessage(msg.chat.id, "<b>[01:10]</b>\n★★★★★ [HG] Grizzly\n★★☆☆☆ [SMG] IDW\n★★☆☆☆ [SMG] PP-2000", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:54]</b>\n★★★★★ [Equipment] SABOT Slug", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[41])
-    bot.sendMessage(msg.chat.id, "<b>[01:04]</b>\n★★★★★ [HG] Px4 Storm", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:55]</b>\n★★★★☆ [HG] P7\n★★★★☆ [HG] Stechkin\n★★★★★[Equipment]  Mk211 High-Explosive Armor-Piercing ", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[42])
-    bot.sendMessage(msg.chat.id, "<b>[01:15]</b>\n★★★★★ [HG] PA-15", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:56]</b>\n★★★★★ [Equipment] Thermoptic Camouflage Cape", { parse_mode: "HTML" }); 
 
   else if (testo == "/tempo " + tempi[43])
-    bot.sendMessage(msg.chat.id, "<b>[01:09]</b>\n★★★★★ [HG] C-93", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:57]</b>\n★★★★★ [Equipment] IOP Maximum Ammo Box", { parse_mode: "HTML" });  
 
   else if (testo == "/tempo " + tempi[44])
-    bot.sendMessage(msg.chat.id, "<b>[04:50]</b>\n★★★★★ [RF] WA2000\n★★☆☆☆ [MG] AAT-52\n★★☆☆☆ [MG] FG42", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[00:58]</b>\n★★★★★ [Equipment] APCR High-Velocity Ammo", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[45])
-    bot.sendMessage(msg.chat.id, "<b>[05:00]</b>\n★★★★★ [RF] Lee Enfield\n★★☆☆☆ [MG] DP28\n★★☆☆☆ [MG] MG34\n☆☆★☆☆ [Fairy] Command Fairy", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[01:00]</b>\n★★★★★ [HG] Welrod MkII", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[46])
-    bot.sendMessage(msg.chat.id, "<b>[05:10]</b>\n★★☆☆☆ [MG] LWMMG\n☆☆★☆☆ [Fairy] Illumination Fairy", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[01:02]</b>\n★★★★★ [HG] Contender", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[47])
-    bot.sendMessage(msg.chat.id, "<b>[05:20]</b>\n★★★☆☆ [MG] Bren", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[01:04]</b>\n★★★★★ [HG] Px4 Storm", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[48])
-    bot.sendMessage(msg.chat.id, "<b>[05:40]</b>\n★★★☆☆ [MG] M1919 A4\n☆☆★☆☆ [Fairy] Construction Fairy", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[01:05]</b>\n★★★★★ [HG] M950A\n★★★★★ [HG] NZ75", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[49])
-    bot.sendMessage(msg.chat.id, "<b>[06:40]</b>\n★★★★★ [MG] MG4", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[01:09]</b>\n★★★★★ [HG] C-93", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[50])
-    bot.sendMessage(msg.chat.id, "<b>[06:10]</b>\n★★★☆☆ [MG] M2HB\n★★★★☆ [MG] M60", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[01:10]</b>\n★★★★★ [HG] Grizzly\n★★☆☆☆ [SMG] IDW\n★★☆☆☆ [SMG] PP-2000", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[51])
-    bot.sendMessage(msg.chat.id, "<b>[06:15]</b>\n★★★★☆ [MG] Type80\n★★★★☆ [SG] Type97S", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[01:15]</b>\n★★★★★ [HG] PA-15", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[52])
-    bot.sendMessage(msg.chat.id, "<b>[06:20]</b>\n★★★★☆ [MG] AEK-999\n★★★★☆ [MG] Mk48", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[53])
-    bot.sendMessage(msg.chat.id, "<b>[06:25]</b>\n★★★★☆ [MG] Ameli\n★★★★☆ [MG] M1918\n★★★★☆ [MG] Chauchat", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[54])
-    bot.sendMessage(msg.chat.id, "<b>[06:30]</b>\n★★★★☆ [MG] MG3\n★★★★☆ [MG] PK", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[55])
-    bot.sendMessage(msg.chat.id, "<b>[06:35]</b>\n★★★★★ [MG] Negev", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[56])
-    bot.sendMessage(msg.chat.id, "<b>[06:45]</b>\n★★★★★ [MG] Gr MG5", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[57])
-    bot.sendMessage(msg.chat.id, "<b>[06:50]</b>\n★★★★★ [MG] PKP", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[58])
-    bot.sendMessage(msg.chat.id, "<b>[06:28]</b>\n★★★★★ [MG] QJY-88", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[59])
-    bot.sendMessage(msg.chat.id, "<b>[05:50]</b>\n★★★☆☆ [MG] MG42", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[60])
-    bot.sendMessage(msg.chat.id, "<b>[06:36]</b>\n★★★★★ [MG] MG36", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[61])
-    bot.sendMessage(msg.chat.id, "<b>[04:00]</b>\n★★★☆☆ [RF] M1 Garand\n☆☆★☆☆ [Fairy] Reinforcement Fairy", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[62])
-    bot.sendMessage(msg.chat.id, "<b>[04:10]</b>\n★★★★☆ [RF] Mosin-Nagant\n★★★★☆ [RF] T-5000\n☆☆★☆☆ [Fairy] Defense Fairy", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[63])
-    bot.sendMessage(msg.chat.id, "<b>[04:15]</b>\n★★★★☆ [RF] SVD\n★★★★☆ [RF] K31\n★★★★☆ [RF] SPR A3G\n☆☆★☆☆ [Fairy] Barrier Fairy", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[64])
-    bot.sendMessage(msg.chat.id, "<b>[04:20]</b>\n★★★★☆ [RF] Gr G28\n★★★★☆ [RF] Gr PSG-1", { parse_mode: "HTML" }); 
-
-  else if (testo == "/tempo " + tempi[65])
-    bot.sendMessage(msg.chat.id, "<b>[04:25]</b>\n★★★★☆ [RF] Springfield", { parse_mode: "HTML" }); 
-
-  else if (testo == "/tempo " + tempi[66])
-    bot.sendMessage(msg.chat.id, "<b>[04:15]</b>\n★★★★☆ [RF] PTRD\n★★★★☆ [RF] PzB 39\n☆☆★☆☆ [Fairy] Warrior Fairy", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[67])
-    bot.sendMessage(msg.chat.id, "<b>[04:38]</b>\n★★★★★ [RF] Carcano M1891", { parse_mode: "HTML" }); 
-
-  else if (testo == "/tempo " + tempi[68])
-    bot.sendMessage(msg.chat.id, "<b>[04:40]</b>\n★★★★★ [RF] Kar98k\n☆☆★☆☆ [Fairy] Twin Fairy", { parse_mode: "HTML" }); 
-
-  else if (testo == "/tempo " + tempi[69])
-    bot.sendMessage(msg.chat.id, "<b>[04:42]</b>\n★★★★★ [RF] Carcano M91/38", { parse_mode: "HTML" }); 
-
-  else if (testo == "/tempo " + tempi[70])
-    bot.sendMessage(msg.chat.id, "<b>[04:45]</b>\n★★★★★ [RF] NTW-20", { parse_mode: "HTML" }); 
-
-  else if (testo == "/tempo " + tempi[71])
-    bot.sendMessage(msg.chat.id, "<b>[04:52]</b>\n★★★★★ [RF] IWS-2000", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[72])
-    bot.sendMessage(msg.chat.id, "<b>[04:55]</b>\n★★★★★ [RF] M99", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[73])
-    bot.sendMessage(msg.chat.id, "<b>[04:32]</b>\n★★★★★ [RF] M200", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[74])
-    bot.sendMessage(msg.chat.id, "<b>[04:48]</b>\n★★★★★ [RF] QBU-88", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[75])
-    bot.sendMessage(msg.chat.id, "<b>[07:15]</b>\n★★★☆☆ [SG] NS2000", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[76])
-    bot.sendMessage(msg.chat.id, "<b>[07:20]</b>\n★★★☆☆ [SG] M500", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[77])
-    bot.sendMessage(msg.chat.id, "<b>[07:25]</b>\n★★★☆☆ [SG] KS-23", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[78])
-    bot.sendMessage(msg.chat.id, "<b>[07:30]</b>\n★★★☆☆ [SG] RMB-93\n★★★☆☆ [SG] M1897", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[79])
-    bot.sendMessage(msg.chat.id, "<b>[07:14]</b>\n★★★★☆ [SG] M1014", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[80])
-    bot.sendMessage(msg.chat.id, "<b>[07:40]</b>\n★★★★☆ [SG] M590\n★★★★☆ [SG] SPAS-12", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[81])
-    bot.sendMessage(msg.chat.id, "<b>[07:45]</b>\n★★★★☆ [SG] M37", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[82])
-    bot.sendMessage(msg.chat.id, "<b>[07:50]</b>\n★★★★☆ [SG] Super Shorty", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[83])
-    bot.sendMessage(msg.chat.id, "<b>[07:55]</b>\n★★★★☆ [SG] USAS-12", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[84])
-    bot.sendMessage(msg.chat.id, "<b>[08:00]</b>\n★★★★★ [SG] Am KSG", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[85])
-    bot.sendMessage(msg.chat.id, "<b>[08:10]</b>\n★★★★★ [SG] S.A.T.8", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[86])
-    bot.sendMessage(msg.chat.id, "<b>[08:12]</b>\n★★★★★ [SG] AA-12", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[87])
-    bot.sendMessage(msg.chat.id, "<b>[08:06]</b>\n★★★★★ [SG] FP-6", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[88])
-    bot.sendMessage(msg.chat.id, "<b>[08:05]</b>\n★★★★★ [SG] Saiga-12", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[89])
     bot.sendMessage(msg.chat.id, "<b>[01:20]</b>\n★★☆☆☆ [SMG] Spectre M4\n★★☆☆☆ [SMG] M45", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[90])
+  else if (testo == "/tempo " + tempi[53])
     bot.sendMessage(msg.chat.id, "<b>[01:25]</b>\n★★☆☆☆ [SMG] Type64", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[91])
+  else if (testo == "/tempo " + tempi[54])
     bot.sendMessage(msg.chat.id, "<b>[01:30]</b>\n★★☆☆☆ [SMG] M38\n★★☆☆☆ [SMG] M3\n★★☆☆☆ [SMG] MP40", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[92])
-    bot.sendMessage(msg.chat.id, "<b>[01:50]</b>\n★★☆☆☆ [SMG] PPSh-41\n★★★☆☆ [SMG] F1", { parse_mode: "HTML" });
-
-  else if (testo == "/tempo " + tempi[93])
+  else if (testo == "/tempo " + tempi[55])
     bot.sendMessage(msg.chat.id, "<b>[01:40]</b>\n★★★☆☆ [SMG] Micro UZI\n★★★☆☆ [SMG] Sten MkII", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[94])
+  else if (testo == "/tempo " + tempi[56])
+    bot.sendMessage(msg.chat.id, "<b>[01:50]</b>\n★★☆☆☆ [SMG] PPSh-41\n★★★☆☆ [SMG] F1(Heavy)", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[57])
     bot.sendMessage(msg.chat.id, "<b>[02:00]</b>\n★★★☆☆ [SMG] Ingram\n★★★☆☆ [SMG] Skorpion", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[95])
-    bot.sendMessage(msg.chat.id, "<b>[02:05]</b>\n★★★☆☆ [SMG] Z-62", { parse_mode: "HTML" });
+  else if (testo == "/tempo " + tempi[58])
+    bot.sendMessage(msg.chat.id, "<b>[02:05]</b>\n★★★☆☆ [SMG] Z-62(Heavy)", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[96])
+  else if (testo == "/tempo " + tempi[59])
     bot.sendMessage(msg.chat.id, "<b>[02:10]</b>\n★★★☆☆ [SMG] PPS-43", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[97])
+  else if (testo == "/tempo " + tempi[60])
     bot.sendMessage(msg.chat.id, "<b>[02:15]</b>\n★★★★☆ [SMG] UMP45\n★★★★☆ [SMG] UMP9", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[98])
-    bot.sendMessage(msg.chat.id, "<b>[02:18]</b>\n★★★★☆ [SMG] Shipka\n★★★★☆ [SMG] PP-19-01\n★★★★☆ [SMG] MP7", { parse_mode: "HTML" });
+  else if (testo == "/tempo " + tempi[61])
+    bot.sendMessage(msg.chat.id, "<b>[02:18]</b>\n★★★★☆ [SMG] Shipka\n★★★★☆ [SMG] PP-19-01\n★★★★☆ [SMG] MP7(Heavy)", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[99])
-    bot.sendMessage(msg.chat.id, "<b>[02:20]</b>\n★★★★☆ [SMG] Gr MP5\n★★★★☆ [SMG] PP-90", { parse_mode: "HTML" });
+  else if (testo == "/tempo " + tempi[62])
+    bot.sendMessage(msg.chat.id, "<b>[02:19]</b>\n★★★★★ [SMG] 100 Shiki", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[100])
-    bot.sendMessage(msg.chat.id, "<b>[02:25]</b>\n★★★★★ [SMG] Suomi", { parse_mode: "HTML" });
+  else if (testo == "/tempo " + tempi[63])
+    bot.sendMessage(msg.chat.id, "<b>[02:20]</b>\n★★★★☆ [SMG] Gr MP5\n★★★★☆ [SMG] PP-90\n★★★★☆ [SMG] K-PDW", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[101])
+  else if (testo == "/tempo " + tempi[64])
+    bot.sendMessage(msg.chat.id, "<b>[02:23]</b>\n★★★★★ [SMG] SR-3MP", { parse_mode: "HTML" }); 
+
+  else if (testo == "/tempo " + tempi[65])
+    bot.sendMessage(msg.chat.id, "<b>[02:25]</b>\n★★★★★ [SMG] Suomi", { parse_mode: "HTML" }); 
+
+  else if (testo == "/tempo " + tempi[66])
+    bot.sendMessage(msg.chat.id, "<b>[02:28]</b>\n★★★★★ [SMG] C-MS", { parse_mode: "HTML" });  
+
+  else if (testo == "/tempo " + tempi[67])
+    bot.sendMessage(msg.chat.id, "<b>[02:29]</b>\n★★★★★ [SMG] P90", { parse_mode: "HTML" }); 
+
+  else if (testo == "/tempo " + tempi[68])
     bot.sendMessage(msg.chat.id, "<b>[02:30]</b>\n★★★★★ [SMG] Gr G36c\n★★★★★ [SMG] Thompson", { parse_mode: "HTML" });
 
-  else if (testo == "/tempo " + tempi[102])
+  else if (testo == "/tempo " + tempi[69])
     bot.sendMessage(msg.chat.id, "<b>[02:35]</b>\n★★★★★ [SMG] Type79\n★★★★★ [SMG] Vector", { parse_mode: "HTML" });
 
+  else if (testo == "/tempo " + tempi[70])
+    bot.sendMessage(msg.chat.id, "<b>[02:40]</b>\n★★☆☆☆ [AR] Galil\n★★☆☆☆ [AR] SIG-510", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[71])
+    bot.sendMessage(msg.chat.id, "<b>[02:45]</b>\n★★☆☆☆ [AR] FF F2000\n★★☆☆☆ [AR] Type 63", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[72])
+    bot.sendMessage(msg.chat.id, "<b>[02:50]</b>\n★★☆☆☆ [AR] Gr G3\n★★☆☆☆ [AR] L85 A1", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[73])
+    bot.sendMessage(msg.chat.id, "<b>[03:00]</b>\n★★★☆☆ [AR] StG44\n★☆☆☆☆ [Fairy] Armor Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[74])
+    bot.sendMessage(msg.chat.id, "<b>[03:05]</b>\n☆☆★☆☆ [Fairy] Shield Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[75])
+    bot.sendMessage(msg.chat.id, "<b>[03:10]</b>\n★★★☆☆ [AR] OTs-12\n★★☆☆☆ [RF] FF FN49\n★★☆☆☆ [RF] G43\n★☆☆☆☆ [Fairy] Taunt Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[76])
+    bot.sendMessage(msg.chat.id, "<b>[03:15]</b>\n★★★☆☆ [AR] ARX-160(Heavy)", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[77])
+    bot.sendMessage(msg.chat.id, "<b>[03:20]</b>\n★★★☆☆ [AR] AK-47\n★★★☆☆ [AR] FN FNC\n★★☆☆☆ [RF] VM59", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[78])
+    bot.sendMessage(msg.chat.id, "<b>[03:30]</b>\n★★★★☆ [AR] AS Val\n★★★★☆ [AR] Fr FAMAS\n★★★★☆ [AR] TAR-21\n★★☆☆☆ [RF] SKS\n★★☆☆☆ [RF] SVT-38\n★☆☆☆☆ [Fairy] Sniper Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[79])
+    bot.sendMessage(msg.chat.id, "<b>[03:35]</b>\n★★★★☆ [AR] 9A-91\n★★★★☆ [AR] EM-2\n★★★★☆ [AR] CR-21\n★☆☆☆☆ [Fairy] Artillery Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[80])
+    bot.sendMessage(msg.chat.id, "<b>[03:40]</b>\n★★★★☆ [AR] Gr G36\n★★★★☆ [AR] Ribeyrolles\n★★★★☆ [RF] M14\n★★★★☆ [RF] SV-98\n★☆☆☆☆ [Fairy] Airstrike Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[81])
+    bot.sendMessage(msg.chat.id, "<b>[03:45]</b>\n★★★★★ [AR] FN FAL", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[82])
+    bot.sendMessage(msg.chat.id, "<b>[03:48]</b>\n★★★★★ [AR] T91", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[83])
+    bot.sendMessage(msg.chat.id, "<b>[03:50]</b>\n★★★★★ [AR] Type95\n★★★★★ [AR] Type97\n★★★☆☆ [RF] OTs-44(Heavy)\n★★★☆☆ [RF] Type 88 Hanyang", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[84])
+    bot.sendMessage(msg.chat.id, "<b>[03:52]</b>\n★★★★★ [AR] K2", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[85])
+    bot.sendMessage(msg.chat.id, "<b>[03:53]</b>\n★★★★★ [AR] MDR", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[86])
+    bot.sendMessage(msg.chat.id, "<b>[03:55]</b>\n★★★★★ [AR] HK416\n★★★★★ [AR] ADS", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[87])
+    bot.sendMessage(msg.chat.id, "<b>[03:56]</b>\n★★★★★ [AR] SIG-556", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[88])
+    bot.sendMessage(msg.chat.id, "<b>[03:58]</b>\n★★★★★ [AR] Am RFB", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[89])
+    bot.sendMessage(msg.chat.id, "<b>[04:00]</b>\n★★★☆☆ [RF] M1 Garand\n☆☆★☆☆ [Fairy] Reinforcement Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[90])
+    bot.sendMessage(msg.chat.id, "<b>[04:04]</b>\n★★★★★ [AR] Gr G11\n★★★★☆ [RF] Type 4", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[91])
+    bot.sendMessage(msg.chat.id, "<b>[04:05]</b>\n★★★★★ [AR] Gr G41\n★★★★★ [AR] Zas M21\n★☆☆☆☆ [Fairy] Parachute Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[92])
+    bot.sendMessage(msg.chat.id, "<b>[04:06]</b>\n★★★★★ [AR] 64 Shiki", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[93])
+    bot.sendMessage(msg.chat.id, "<b>[04:09]</b>\n★★★★★ [AR] AN-94", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[94])
+    bot.sendMessage(msg.chat.id, "<b>[04:10]</b>\n★★★★☆ [RF] Mosin-Nagant\n★★★★☆ [RF] T-5000\n☆☆★☆☆ [Fairy] Defense Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[95])
+    bot.sendMessage(msg.chat.id, "<b>[04:11]</b>\n★★★★★ [AR] K11", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[96])
+    bot.sendMessage(msg.chat.id, "<b>[04:12]</b>\n★★★★★ [AR] AK-12", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[97])
+    bot.sendMessage(msg.chat.id, "<b>[04:15]</b>\n★★★★☆ [RF] SVD\n★★★★☆ [RF] K31\n★★★★☆ [RF] SPR A3G\n☆☆★☆☆ [Fairy] Barrier Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[98])
+    bot.sendMessage(msg.chat.id, "<b>[04:20]</b>\n★★★★☆ [RF] Gr G28\n★★★★☆ [RF] Gr PSG-1", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[99])
+    bot.sendMessage(msg.chat.id, "<b>[04:25]</b>\n★★★★☆ [RF] Springfield", { parse_mode: "HTML" }); 
+
+  else if (testo == "/tempo " + tempi[100])
+    bot.sendMessage(msg.chat.id, "<b>[04:30]</b>\n★★★★☆ [RF] PTRD\n★★★★☆ [RF] PzB 39\n☆☆★☆☆ [Fairy] Warrior Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[101])
+    bot.sendMessage(msg.chat.id, "<b>[04:32]</b>\n★★★★★ [RF] M200", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[102])
+    bot.sendMessage(msg.chat.id, "<b>[04:35]</b>\n☆☆★☆☆ [Fairy] Fury Fairy", { parse_mode: "HTML" });
+
   else if (testo == "/tempo " + tempi[103])
-    bot.sendMessage(msg.chat.id, "<b>[02:28]</b>\n★★★★★ [SMG] C-MS", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[04:38]</b>\n★★★★★ [RF] Carcano M1891", { parse_mode: "HTML" }); 
 
   else if (testo == "/tempo " + tempi[104])
-    bot.sendMessage(msg.chat.id, "<b>[02:29]</b>\n★★★★★ [SMG] P90", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[04:40]</b>\n★★★★★ [RF] Kar98k\n☆☆★☆☆ [Fairy] Twin Fairy", { parse_mode: "HTML" });
 
   else if (testo == "/tempo " + tempi[105])
-    bot.sendMessage(msg.chat.id, "<b>[02:19]</b>\n★★★★★ [SMG] 100 Shiki", { parse_mode: "HTML" });
+    bot.sendMessage(msg.chat.id, "<b>[04:42]</b>\n★★★★★ [RF] Carcano M91/38", { parse_mode: "HTML" }); 
+
+  else if (testo == "/tempo " + tempi[106])
+    bot.sendMessage(msg.chat.id, "<b>[04:45]</b>\n★★★★★ [RF] NTW-20", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[107])
+    bot.sendMessage(msg.chat.id, "<b>[04:48]</b>\n★★★★★ [RF] QBU-88", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[108])
+    bot.sendMessage(msg.chat.id, "<b>[04:50]</b>\n★★★★★ [RF] WA2000\n★★☆☆☆ [MG] AAT-52\n★★☆☆☆ [MG] FG42", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[109])
+    bot.sendMessage(msg.chat.id, "<b>[04:52]</b>\n★★★★★ [RF] IWS-2000", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[110])
+    bot.sendMessage(msg.chat.id, "<b>[04:55]</b>\n★★★★★ [RF] M99", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[111])
+    bot.sendMessage(msg.chat.id, "<b>[05:00]</b>\n★★★★★ [RF] Lee Enfield\n★★☆☆☆ [MG] DP28\n★★☆☆☆ [MG] MG34\n☆☆★☆☆ [Fairy] Command Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[112])
+    bot.sendMessage(msg.chat.id, "<b>[05:05]</b>\n☆☆★☆☆ [Fairy] Rescue Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[113])
+    bot.sendMessage(msg.chat.id, "<b>[05:10]</b>\n★★☆☆☆ [MG] LWMMG\n☆☆★☆☆ [Fairy] Illumination Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[114])
+    bot.sendMessage(msg.chat.id, "<b>[05:15]</b>\n☆☆★☆☆ [Fairy] Combo Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[115])
+    bot.sendMessage(msg.chat.id, "<b>[05:20]</b>\n★★★☆☆ [MG] Bren", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[116])
+    bot.sendMessage(msg.chat.id, "<b>[05:30]</b>\n☆☆★☆☆ [Fairy] Landmine Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[117])
+    bot.sendMessage(msg.chat.id, "<b>[05:35]</b>\n☆☆★☆☆ [Fairy] Rocket Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[118])
+    bot.sendMessage(msg.chat.id, "<b>[05:40]</b>\n★★★☆☆ [MG] M1919 A4\n☆☆★☆☆ [Fairy] Construction Fairy", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[119])
+    bot.sendMessage(msg.chat.id, "<b>[05:50]</b>\n★★★☆☆ [MG] MG42", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[120])
+    bot.sendMessage(msg.chat.id, "<b>[06:10]</b>\n★★★☆☆ [MG] M2HB\n★★★★☆ [MG] M60", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[121])
+    bot.sendMessage(msg.chat.id, "<b>[06:15]</b>\n★★★★☆ [MG] Type80\n★★★★☆ [SG] Type97S", { parse_mode: "HTML" });
+ 
+  else if (testo == "/tempo " + tempi[122])
+    bot.sendMessage(msg.chat.id, "<b>[06:20]</b>\n★★★★☆ [MG] AEK-999\n★★★★☆ [MG] Mk48", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[123])
+    bot.sendMessage(msg.chat.id, "<b>[06:25]</b>\n★★★★☆ [MG] Ameli\n★★★★☆ [MG] M1918\n★★★★☆ [MG] Chauchat", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[124])
+    bot.sendMessage(msg.chat.id, "<b>[06:28]</b>\n★★★★★ [MG] QJY-88", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[125])
+    bot.sendMessage(msg.chat.id, "<b>[06:30]</b>\n★★★★☆ [MG] MG3\n★★★★☆ [MG] PK", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[126])
+    bot.sendMessage(msg.chat.id, "<b>[06:35]</b>\n★★★★★ [MG] Negev", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[127])
+    bot.sendMessage(msg.chat.id, "<b>[06:36]</b>\n★★★★★ [MG] MG36", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[128])
+    bot.sendMessage(msg.chat.id, "<b>[06:40]</b>\n★★★★★ [MG] MG4", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[129])
+    bot.sendMessage(msg.chat.id, "<b>[06:45]</b>\n★★★★★ [MG] Gr MG5", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[130])
+    bot.sendMessage(msg.chat.id, "<b>[06:50]</b>\n★★★★★ [MG] PKP", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[131])
+    bot.sendMessage(msg.chat.id, "<b>[07:14]</b>\n★★★★☆ [SG] M1014", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[132])
+    bot.sendMessage(msg.chat.id, "<b>[07:15]</b>\n★★★☆☆ [SG] NS2000", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[133])
+    bot.sendMessage(msg.chat.id, "<b>[07:20]</b>\n★★★☆☆ [SG] M500", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[134])
+    bot.sendMessage(msg.chat.id, "<b>[07:25]</b>\n★★★☆☆ [SG] KS-23", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[135])
+    bot.sendMessage(msg.chat.id, "<b>[07:30]</b>\n★★★☆☆ [SG] RMB-93\n★★★☆☆ [SG] M1897", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[136])
+    bot.sendMessage(msg.chat.id, "<b>[07:40]</b>\n★★★★☆ [SG] M590\n★★★★☆ [SG] SPAS-12", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[137])
+    bot.sendMessage(msg.chat.id, "<b>[07:45]</b>\n★★★★☆ [SG] M37", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[138])
+    bot.sendMessage(msg.chat.id, "<b>[07:50]</b>\n★★★★☆ [SG] Super Shorty", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[139])
+    bot.sendMessage(msg.chat.id, "<b>[07:55]</b>\n★★★★☆ [SG] USAS-12", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[140])
+    bot.sendMessage(msg.chat.id, "<b>[08:00]</b>\n★★★★★ [SG] Am KSG", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[141])
+    bot.sendMessage(msg.chat.id, "<b>[08:05]</b>\n★★★★★ [SG] Saiga-12", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[142])
+    bot.sendMessage(msg.chat.id, "<b>[08:06]</b>\n★★★★★ [SG] FP-6", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[143])
+    bot.sendMessage(msg.chat.id, "<b>[08:10]</b>\n★★★★★ [SG] S.A.T.8", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[144])
+    bot.sendMessage(msg.chat.id, "<b>[08:12]</b>\n★★★★★ [SG] AA-12", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[145])
+    bot.sendMessage(msg.chat.id, "<b>[08:13]</b>\n★★★★★ [SG] DP-12", { parse_mode: "HTML" });
+
+  else if (testo == "/tempo " + tempi[146])
+    bot.sendMessage(msg.chat.id, "<b>[08:15]</b>\n★★★★★ [SG] CAWS", { parse_mode: "HTML" });
+    
   else
     bot.sendMessage(msg.chat.id, "Nessuna informazione per il tempo inserito.");
 
