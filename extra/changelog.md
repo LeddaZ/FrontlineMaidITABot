@@ -1,5 +1,10 @@
 # Cronologia delle versioni
 
+## 0.3.2
+- `/tempo` è stato completato sul serio
+- Sono stati aggiunti gli esempi per `/tempo` in `/comandi`
+- Altri miglioramenti al codice
+
 ## 0.3.1
 - `/tempo` è stato corretto, alcuni valori visualizzavano dati errati (es. `/tempo 800` dava i risultati di `/tempo 810`)
 
